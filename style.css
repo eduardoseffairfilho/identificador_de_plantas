@@ -1,0 +1,55 @@
+/* Importa a fonte Montserrat do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Estilos gerais do body */
+body {
+  font-family: 'Montserrat', sans-serif; /* Utiliza a fonte Montserrat como principal, com fallback para sans-serif */
+  background-color: #f5f5f5; /* Define um fundo claro e suave */
+  color: #333; /* Define a cor do texto como um cinza escuro */
+}
+
+/* Estilos para o header */
+header {
+  text-align: center; /* Centraliza o texto do header */
+  background-color: #fff; /* Define um fundo branco para o header */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao header */
+  padding: 20px; /* Adiciona padding ao header */
+}
+
+/* Estilos para a seção main */
+main {
+  display: grid; /* Define o layout principal como um grid */
+  place-items: center; /* Centraliza o conteúdo dentro do grid */
+  height: 100vh; /* Define a altura da seção main como 100% da viewport */
+}
+
+/* Estilos para a classe item-resultado */
+.item-resultado {
+  background-color: #fff; /* Define um fundo branco para o item de resultado */
+  border: 1px solid #ddd; /* Adiciona uma borda cinza clara */
+  padding: 20px; /* Adiciona padding ao item de resultado */
+  margin-bottom: 5px; /* Adiciona margem inferior para separar os itens */
+  border-radius: 5px; /* Arredonda os cantos do item de resultado */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+/* Estilos para a classe nome-cientifico-meta */
+.nome-cientifico-meta {
+  font-style: italic; /* Coloca o nome científico em itálico */
+  color: #555; /* Define a cor do nome científico como um cinza médio */
+}
+
+/* Estilos para a classe como-cuidar-meta */
+.como-cuidar-meta {
+  color: #4CAF50; /* Define a cor das instruções de cuidado como um verde claro para destaque */
+}
+
+/* Estilos para o footer */
+footer {
+  position: fixed; /* Posiciona o footer fixo na parte inferior da página */
+  bottom: 0; /* Alinha o footer na parte inferior */
+  left: 0; /* Alinha o footer à esquerda */
+  right: 0; /* Alinha o footer à direita */
+  background-color: #f0f0f0; /* Define um fundo cinza claro para o footer */
+  text-align: center; /* Centraliza o texto do footer */
+}
