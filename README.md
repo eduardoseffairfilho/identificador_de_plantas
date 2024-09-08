@@ -16,3 +16,6 @@ Com nosso identificador, você nunca mais vai confundir uma jiboia com uma orqu�
 **Quer ajudar a cuidar do jardim?** Abra um pull request e vamos cultivar esse projeto juntos! 
 
 **Licença:** MIT
+
+**Melhorias futuras:**
+1. Identificar a partir de uma imagem utilizando uma API de reconhecimento de imagem como a do Google Cloud Vision.
